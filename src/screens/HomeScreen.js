@@ -14,43 +14,43 @@ const HomeScreen = ({ navigation }) => {
           style={styles.button}
           onPress={() => navigation.navigate('AL_GA')}
         >
-          <Text>AL-GA </Text>
+          <Text>AL-GA</Text>
         </TouchableOpacity>
         <TouchableOpacity 
           style={styles.button}
           onPress={() => navigation.navigate('ID_MA')}
         >
-          <Text>ID-MA </Text>
+          <Text>ID-MA</Text>
         </TouchableOpacity>
         <TouchableOpacity 
           style={styles.button}
           onPress={() => navigation.navigate('MI_NM')}
         >
-          <Text>MI-NM </Text>
+          <Text>MI-NM</Text>
         </TouchableOpacity>
         <TouchableOpacity 
           style={styles.button}
           onPress={() => navigation.navigate('NY_SD')}
         >
-          <Text>NY-SD </Text>
+          <Text>NY-SD</Text>
         </TouchableOpacity>
         <TouchableOpacity 
           style={styles.button}
           onPress={() => navigation.navigate('TN_WY')}
         >
-          <Text>TN-WY </Text>
+          <Text>TN-WY</Text>
         </TouchableOpacity>
         <TouchableOpacity 
           style={styles.button}
           onPress={() => navigation.navigate('Canada')}
         >
-          <Text>Canada </Text>
+          <Text>Canada</Text>
         </TouchableOpacity>
         <TouchableOpacity 
           style={styles.button}
           onPress={() => navigation.navigate('Mexico')}
         >
-          <Text>Mexico </Text>
+          <Text>Mexico</Text>
         </TouchableOpacity>
       </ImageBackground>
     </ScrollView>
@@ -59,7 +59,6 @@ const HomeScreen = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   button: {
-    alignItems: 'center',
     backgroundColor: 'teal',
     borderRadius: 30,
     marginLeft: 150,
