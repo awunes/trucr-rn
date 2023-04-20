@@ -23,7 +23,7 @@ const navigator = createStackNavigator(
     {
     initialRouteName: 'Home',
     defaultNavigationOptions: {
-      title: 'TRUCR',
+      title: 'T.R.U.C.R.',
     },
   }
 );
