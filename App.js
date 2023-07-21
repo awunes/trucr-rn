@@ -6,12 +6,14 @@ import ID_MA from "./src/screens/ID_MA";
 import MI_NM from "./src/screens/MI_NM";
 import NY_SD from "./src/screens/NY_SD";
 import TN_WY from "./src/screens/TN_WY";
+import United_States from "./src/screens/United_States";
 import Canada from "./src/screens/Canada";
 import Mexico from "./src/screens/Mexico";
 
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
+    United_States: United_States,
     AL_GA: AL_GA,
     ID_MA: ID_MA,
     MI_NM: MI_NM,

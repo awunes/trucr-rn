@@ -1,5 +1,5 @@
 import React from "react";
-import { View, ScrollView, Text, StyleSheet, TouchableOpacity, ImageBackground } from "react-native";
+import { ScrollView, Text, StyleSheet, TouchableOpacity, ImageBackground } from "react-native";
 import { AntDesign } from '@expo/vector-icons';
 
 const HomeScreen = ({ navigation }) => {
@@ -13,33 +13,9 @@ const HomeScreen = ({ navigation }) => {
       >
         <TouchableOpacity 
           style={styles.button}
-          onPress={() => navigation.navigate('AL_GA')}
+          onPress={() => navigation.navigate('United_States')}
         >
-          <Text style={styles.buttonText}>AL-GA</Text>
-        </TouchableOpacity>
-        <TouchableOpacity 
-          style={styles.button}
-          onPress={() => navigation.navigate('ID_MA')}
-        >
-          <Text style={styles.buttonText}>ID-MA</Text>
-        </TouchableOpacity>
-        <TouchableOpacity 
-          style={styles.button}
-          onPress={() => navigation.navigate('MI_NM')}
-        >
-          <Text style={styles.buttonText}>MI-NM</Text>
-        </TouchableOpacity>
-        <TouchableOpacity 
-          style={styles.button}
-          onPress={() => navigation.navigate('NY_SD')}
-        >
-          <Text style={styles.buttonText}>NY-SD</Text>
-        </TouchableOpacity>
-        <TouchableOpacity 
-          style={styles.button}
-          onPress={() => navigation.navigate('TN_WY')}
-        >
-          <Text style={styles.buttonText}>TN-WY</Text>
+          <Text style={styles.buttonText}>United States</Text>
         </TouchableOpacity>
         <TouchableOpacity 
           style={styles.button}
@@ -80,12 +56,12 @@ const styles = StyleSheet.create({
   image: {
     width: '100%', 
     height: '100%',
-    marginBottom: '60%'
+    marginBottom: '90%'
   },
   ownerText: {
     fontSize: 16,
     marginLeft: 80,
-    marginTop:10,
+    marginTop: 50,
   },
 });
 
