@@ -1,16 +1,16 @@
 import React from "react";
 import { ScrollView, Text, StyleSheet, TouchableOpacity, ImageBackground } from "react-native";
 import { AntDesign } from '@expo/vector-icons';
-import Disclaimer from "./Disclaimer";
-import Login from "./login";
-import Logout from "./logout";
+// import Disclaimer from "./Disclaimer";
+// import Login from "./login";
+// import Logout from "./logout";
 
 const HomeScreen = ({ navigation }) => {
   return (
     <>
-    <Login/>
-    <Logout/>
-    <Disclaimer/>
+    {/* <Login/> */}
+    {/* <Logout/> */}
+    {/* <Disclaimer/> */}
     <ScrollView style={styles.container}>
       <ImageBackground 
       source={{uri: 'https://st2.depositphotos.com/6838070/42761/i/600/depositphotos_427611124-stock-photo-car-driving-winter-road-blizzard.jpg' }}
