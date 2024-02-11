@@ -2,10 +2,14 @@ import React from "react";
 import { ScrollView, Text, StyleSheet, TouchableOpacity, ImageBackground } from "react-native";
 import { AntDesign } from '@expo/vector-icons';
 import Disclaimer from "./Disclaimer";
+import Login from "./login";
+import Logout from "./logout";
 
 const HomeScreen = ({ navigation }) => {
   return (
     <>
+    <Login/>
+    <Logout/>
     <Disclaimer/>
     <ScrollView style={styles.container}>
       <ImageBackground 
