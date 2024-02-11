@@ -1,16 +1,16 @@
 import React from "react";
 import { ScrollView, Text, StyleSheet, TouchableOpacity, ImageBackground } from "react-native";
 import { AntDesign } from '@expo/vector-icons';
+import Disclaimer from "./Disclaimer";
 
 const HomeScreen = ({ navigation }) => {
   return (
-    <ScrollView 
-      style={styles.container}
-    >
+    <>
+    <Disclaimer/>
+    <ScrollView style={styles.container}>
       <ImageBackground 
       source={{uri: 'https://st2.depositphotos.com/6838070/42761/i/600/depositphotos_427611124-stock-photo-car-driving-winter-road-blizzard.jpg' }}
-      style={styles.image}
-      >
+      style={styles.image}>
         <TouchableOpacity 
           style={styles.button}
           onPress={() => navigation.navigate('United_States')}
@@ -34,6 +34,7 @@ const HomeScreen = ({ navigation }) => {
         <Text style={styles.ownerText}><AntDesign name="copyright" size={12} color="red" /> - 2023</Text>
       </ImageBackground>
     </ScrollView>
+    </>
   )
 };
 
