@@ -13,7 +13,7 @@ const A_G = () => {
         style={styles.button}
         onPress={() => 
         Linking.openURL(
-          'https://www.dot.state.al.us/maps.html'
+          'https://algotraffic.com/map'
         )
         }
       >
